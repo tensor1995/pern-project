@@ -5,6 +5,7 @@ const {errorMessage,status} = require('../helpers/status');
 
 dotenv.config();
 
+/*Token Verification Logic*/ 
 const verifyToken = async (req,res,next)=>{
     const {token} = req.headers;
     if(!token){
