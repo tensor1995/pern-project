@@ -1,0 +1,3 @@
+var route = require('./router.js');
+// ...
+app.use('/rout',route);

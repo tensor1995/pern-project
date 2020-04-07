@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
+dotenv.config();
 
-
-
+// import env from '../../env';
 /**
    * isValidEmail helper method
    * @param {string} email
